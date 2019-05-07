@@ -3,3 +3,106 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+body {
+  margin: 0;
+}
+
+hr {
+height: 2px;
+margin: auto;
+background-color: black;
+border: 0 none;
+margin: 0;
+}
+
+button {
+  background-color: #805215;
+  color: white;
+  font-size: 1.6em;
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  background-color: #FFDBAA;
+  padding: 25px;
+}
+
+.navTitle {
+  color: #553100;
+  justify-content: flex-start;
+  font-size: 1.9em;
+  font-weight: bold;
+  margin: 35px;
+}
+
+.navButtons {
+  float: right;
+}
+
+.content {
+  background-color: #D4A76A;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.triRow{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+#boxButton {
+  width:100%;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.flightsBox {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  width: 25%;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,.3);
+}
+.groupBox {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  width: 25%;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,.3);
+}
+.discountBox {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  width: 25%;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,.3);
+}
+
+.fullRow {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.aboutBox{
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: white;
+  padding: 5px;
+
+}
